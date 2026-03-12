@@ -1,0 +1,112 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial;
+    margin: 0;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+}
+
+/* Glass container */
+
+.container {
+    width: 420px;
+    padding: 35px;
+
+    border-radius: 20px;
+
+    background: rgba(255,255,255,0.12);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
+    border: 1px solid rgba(255,255,255,0.25);
+
+    box-shadow:
+        0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Title */
+
+h2 {
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+}
+
+/* Inputs */
+
+input {
+    width: 100%;
+    padding: 12px;
+
+    border-radius: 12px;
+    border: none;
+
+    margin-bottom: 12px;
+
+    background: rgba(255,255,255,0.2);
+    color: white;
+}
+
+input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+/* Button */
+
+button {
+    width: 100%;
+    padding: 12px;
+
+    border-radius: 12px;
+    border: none;
+
+    background: #4da3ff;
+    color: white;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #2f8cff;
+}
+
+/* Task list */
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255,255,255,0.18);
+    color: white;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    margin-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Delete link */
+
+a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
