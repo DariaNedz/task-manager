@@ -43,16 +43,15 @@ http://localhost/task-manager/login.php
 ## Project structure
 
 task-manager
-│
-├── login.php
-├── register.php
-├── dashboard.php
-├── add_task.php
-├── delete_task.php
-├── logout.php
-├── config.php
-├── style.css
-└── database.sql
+- login.php
+- register.php
+- dashboard.php
+- add_task.php
+- delete_task.php
+- logout.php
+- config.php
+- style.css
+- database.sql
 
 ## Security
 
