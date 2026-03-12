@@ -69,8 +69,6 @@ Passwords are stored using PHP password_hash().
 <img src="screenshots/tasks.png" width="420">
 
 ### Database tables
-*Users table*
 <img src="screenshots/db_users.png" width="420">
 
-*Tasks table*
 <img src="screenshots/db_tasks.png" width="420">
