@@ -56,3 +56,21 @@ task-manager
 ## Security
 
 Passwords are stored using PHP password_hash().
+
+## Screenshots
+
+### Login page
+<img src="screenshots/login.png" width="420">
+
+### User logged in
+<img src="screenshots/login_user.png" width="420">
+
+### Task dashboard
+<img src="screenshots/tasks.png" width="420">
+
+### Database tables
+*Users table*
+<img src="screenshots/db_users.png" width="420">
+
+*Tasks table*
+<img src="screenshots/db_tasks.png" width="420">
